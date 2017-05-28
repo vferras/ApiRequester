@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  apirequester.api:
+    image: apirequester.api
+    build:
+      context: ./ApiRequester.Api
+      dockerfile: Dockerfile
